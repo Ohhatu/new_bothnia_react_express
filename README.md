@@ -1,6 +1,6 @@
 ```bash
 #Prereq: Node.JS
-# First setup commands (From the bothnia_react_express directory)
+# First setup commands (From the new_bothnia_react_express directory)
 1. cd client/public
 2. mkdir tmp
 3. cd..
