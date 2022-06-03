@@ -1,0 +1,36 @@
+{
+  "name": "bothnia_react_express",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "npm i && cd client && npm i && npm audit fix --force && npm audit fix --force --prefix client && concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Grupp 2",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "concurrently": "^3.5.1",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.8",
+    "exif": "^0.6.0",
+    "express": "^4.16.2",
+    "fs": "^0.0.1-security",
+    "gridfs-stream": "^1.1.1",
+    "method-override": "^3.0.0",
+    "mongodb": "^4.6.0",
+    "mongoose": "^6.3.3",
+    "multer": "^1.4.4",
+    "multer-gridfs-storage": "^5.0.2",
+    "react-icons": "^4.3.1",
+    "react-notifications": "^1.7.3",
+    "react-router-dom": "^6.3.0",
+    "styled-components": "^5.3.5"
+  }
+}

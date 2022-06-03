@@ -1,0 +1,68 @@
+/* From kevquirk/simple.css */
+
+/* Set the global variables for everything. Change these to use your own fonts and colours. */
+:root {
+  /* Set sans-serif & mono fonts */
+  --sans-font: -apple-system, BlinkMacSystemFont, "Avenir Next", Avenir,
+    "Nimbus Sans L", Roboto, Noto, "Segoe UI", Arial, Helvetica,
+    "Helvetica Neue", sans-serif;
+  --mono-font: Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+
+  /* Body font size. By default, effectively 18.4px, based on 16px as 'root em' */
+  --base-fontsize: 1.15rem;
+
+  /* Major third scale progression - see https://type-scale.com/ */
+  --header-scale: 1.25;
+
+  /* Line height is set to the "Golden ratio" for optimal legibility */
+  --line-height: 1.618;
+
+  /* Default (light) theme 
+   --bg: #d2d7cf;
+   --accent-bg: #0c0c0c;
+   --text: #212121;
+   --text-light: #585858;
+   --border: #000000;
+   --accent: #000000;
+   --accent-light: #90caf9;
+   --code: #d81b60;
+   --preformatted: #444;
+   --marked: #ffdd33;
+   --disabled: #efefef;
+}
+input[type="date"]:before {
+   content: attr(placeholder) !important;
+   color: #747474;
+   margin-right: 0.5em;
+}
+
+input[type="date"]:focus:before,
+input[type="date"]:valid:before {
+   content: "";
+}
+
+html {
+   /* Set the font globally 
+   font-family: var(--sans-font);
+}
+
+/* Make the body a nice central block */
+  /*
+body {
+   color: var(--text);
+   background: var(--bg);
+   font-size: var(--base-fontsize);
+   line-height: var(--line-height);
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
+   flex: 1;
+   margin: 0 auto;
+   max-width: 45rem;
+   padding: 0 0.5rem;
+   overflow-x: hidden;
+   word-break: break-word;
+   overflow-wrap: break-word;
+}
+*/
+}
