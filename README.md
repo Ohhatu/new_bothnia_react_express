@@ -1,12 +1,10 @@
 ```bash
 #Prereq: Node.JS
 # First setup commands (From the new_bothnia_react_express directory)
-1. cd client/public
-2. mkdir tmp
+1. cd client
+2. npm install
 3. cd..
 4. npm install
-5. cd..
-6. npm install
 
 # Run the client & server at the same time
 npm run dev
