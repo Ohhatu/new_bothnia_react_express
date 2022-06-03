@@ -106,7 +106,6 @@ export default class ImageView extends Component {
     return (
       <>
         <div className="cards">
-          <h1>KATEGORIER</h1>
           <div className="cards__container">
             <div className="cards__wrapper">
               <ul className="cards__items">
